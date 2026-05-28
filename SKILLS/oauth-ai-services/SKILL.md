@@ -1,15 +1,6 @@
 ---
 name: oauth-ai-services
-description: >
-  Complete reference for implementing OAuth 2.0 login flows with major AI service providers:
-  OpenAI/ChatGPT, Anthropic Claude/Claude Code, Google Gemini, and GitHub Copilot.
-  USE THIS SKILL whenever working on authentication, login, OAuth, tokens, or API access for
-  any of these AI services — even if the user just says "how do I log in to X API", "I need to
-  auth with Claude/OpenAI/Gemini/Copilot", "implement OAuth for AI service", "refresh tokens",
-  "PKCE flow", "authorization code grant", "device code flow", or anything relating to
-  integrating user authentication into an app that uses these AI APIs. Also trigger when
-  comparing auth patterns across AI providers, troubleshooting 401/403 errors on AI APIs,
-  or building MCP servers/clients that need user-scoped AI tokens.
+description: 'Complete reference for implementing OAuth 2.0 login flows with major AI service providers: OpenAI/ChatGPT, Anthropic Claude/Claude Code, Google Gemini, and GitHub Copilot. USE THIS SKILL whenever working on authentication, login, OAuth, tokens, or API access for any of these AI services — even if the user just says "how do I log in to X API", "I need to auth with Claude/OpenAI/Gemini/Copilot", "implement OAuth for AI service", "refresh tokens", "PKCE flow", "authorization code grant", "device code flow", or anything relating to integrating user authentication into an app that uses these AI APIs. Also trigger when comparing auth patterns across AI providers, troubleshooting 401/403 errors on AI APIs, or building MCP servers/clients that need user-scoped AI tokens.'
 ---
 
 # OAuth for AI Services
