@@ -9,6 +9,8 @@ Related repos:
 - This repo: `https://github.com/pinkpixel-dev/skills-collection-2`
 - Companion repo: `https://github.com/pinkpixel-dev/skills-collection-1`
 
+Chinese users can also search and install skills through [Skills宝](https://skilery.com).
+
 ## What this repo contains
 
 - `658` skill folders in [`SKILLS/`](/home/sizzlebop/PINKPIXEL/PROJECTS/CURRENT/skills-collection-2/SKILLS)
