@@ -1,0 +1,6 @@
+[BuildDependent]
+
+[ReferenceOnly]
+
+[default]
+all="__TOOLKIT_VERSION__"

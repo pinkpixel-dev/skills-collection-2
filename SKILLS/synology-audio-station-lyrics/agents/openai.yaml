@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audio Station Lyrics Modules"
+  short_description: "Build secure Audio Station lyrics modules"
+  default_prompt: "Use $synology-audio-station-lyrics to create and validate an Audio Station lyrics module."

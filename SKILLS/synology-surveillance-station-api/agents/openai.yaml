@@ -1,0 +1,4 @@
+interface:
+  display_name: "Surveillance Station Web API"
+  short_description: "Build secure Surveillance Station API clients"
+  default_prompt: "Use $synology-surveillance-station-api to design and verify a secure Surveillance Station WebAPI workflow."

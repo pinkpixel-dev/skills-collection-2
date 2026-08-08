@@ -1,0 +1,7 @@
+#!/bin/bash
+set -eu
+
+# Add target compilation here. This script runs inside the toolkit chroot.
+case "${MakeClean:-No}" in
+    [Yy][Ee][Ss]) ;;
+esac

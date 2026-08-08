@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synology CLI Administrator"
+  short_description: "Safely administer Synology DSM from the CLI"
+  default_prompt: "Use $synology-cli-admin to inspect and safely manage this Synology NAS from the command line."

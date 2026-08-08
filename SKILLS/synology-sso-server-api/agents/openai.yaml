@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synology SSO Server API"
+  short_description: "Integrate apps with Synology SSO Server"
+  default_prompt: "Use $synology-sso-server-api to design a secure Synology SSO integration."

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+# Validate the upgrade path and create verified backups before migration.
+exit 0

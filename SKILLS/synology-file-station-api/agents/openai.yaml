@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synology File Station API"
+  short_description: "Build and troubleshoot File Station API clients"
+  default_prompt: "Use $synology-file-station-api to build a secure Synology File Station API workflow."

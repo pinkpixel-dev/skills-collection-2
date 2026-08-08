@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+# Preserve user data by default. Remove only package-owned disposable state.
+exit 0

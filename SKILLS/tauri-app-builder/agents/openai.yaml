@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tauri App Builder"
+  short_description: "Build polished, secure Tauri desktop apps"
+  default_prompt: "Use $tauri-app-builder to build a production-grade Tauri desktop app with native window, tray, lifecycle, security, and packaging behavior."

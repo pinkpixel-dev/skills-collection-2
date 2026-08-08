@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synology Package Developer"
+  short_description: "Build secure DSM 7 SPK packages end to end"
+  default_prompt: "Use $synology-package-developer to design, build, validate, and test a secure DSM 7 package."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synology DSM Login WebAPI"
+  short_description: "Build secure DSM WebAPI login integrations"
+  default_prompt: "Use $synology-dsm-login-webapi to implement a secure DSM WebAPI authentication flow."

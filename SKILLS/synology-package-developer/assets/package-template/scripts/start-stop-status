@@ -1,0 +1,24 @@
+#!/bin/sh
+set -eu
+
+case "${1:-}" in
+    start)
+        # Start the package service. Make this idempotent.
+        exit 0
+        ;;
+    stop)
+        # Stop only package-owned processes. Make this idempotent.
+        exit 0
+        ;;
+    status)
+        # Replace with a real health/status check. Code 3 means not running.
+        exit 3
+        ;;
+    prestart|prestop)
+        exit 0
+        ;;
+    *)
+        printf 'Usage: %s {start|stop|status|prestart|prestop}\n' "$0" >&2
+        exit 64
+        ;;
+esac

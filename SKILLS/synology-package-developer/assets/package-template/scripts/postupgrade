@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+# Complete idempotent, version-gated migration and verify application state.
+exit 0

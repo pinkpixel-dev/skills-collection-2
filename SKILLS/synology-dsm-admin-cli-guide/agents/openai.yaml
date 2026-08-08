@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synology DSM Admin CLI Guide"
+  short_description: "Safely operate documented DSM administration CLIs"
+  default_prompt: "Use $synology-dsm-admin-cli-guide to plan and verify a safe DSM administrative CLI operation."

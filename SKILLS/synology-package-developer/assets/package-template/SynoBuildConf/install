@@ -1,0 +1,25 @@
+#!/bin/bash
+set -eu
+
+package_id="__PACKAGE_ID__"
+staging_payload="/tmp/_${package_id}_payload"
+staging_spk="/tmp/_${package_id}_spk"
+artifact_dir="/image/packages"
+
+cleanup() {
+    rm -rf -- "$staging_payload" "$staging_spk"
+}
+trap cleanup EXIT HUP INT TERM
+
+cleanup
+mkdir -p -- "$staging_payload" "$staging_spk/scripts" "$artifact_dir"
+
+cp -a -- package/. "$staging_payload/"
+cp -a -- scripts/. "$staging_spk/scripts/"
+cp -a -- conf "$staging_spk/"
+cp -a -- PACKAGE_ICON.PNG PACKAGE_ICON_256.PNG "$staging_spk/"
+./INFO.sh > "$staging_spk/INFO"
+
+. /pkgscripts-ng/include/pkg_util.sh
+pkg_make_package "$staging_payload" "$staging_spk"
+pkg_make_spk "$staging_spk" "$artifact_dir" "$(pkg_get_spk_family_name "$staging_spk/INFO")"

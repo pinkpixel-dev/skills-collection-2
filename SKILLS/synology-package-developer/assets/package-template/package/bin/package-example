@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+
+printf '%s\n' "__DISPLAY_NAME__ is installed."
